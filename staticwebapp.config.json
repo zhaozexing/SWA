@@ -1,4 +1,11 @@
 {
+
+    "routes": [
+        {
+          "route": "/*",
+          "methods": ["PUT", "POST", "PATCH", "DELETE"]
+        }
+        ],
     "navigationFallback": {
         "rewrite": "/index.html"
     }
